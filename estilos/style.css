@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+body {
+    font-family: 'Noto Sans', sans-serif;
+    background-color: #18181B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.main-login{
+    background-color: #1F2421;  
+    border-radius: 15px;
+    box-shadow: 0 10px 40px #00000056;
+}
+.main-login h1 {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.caixa-login{
+    padding: 30px;
+}
+.caixa-login label {
+    color: #f0ffffde;
+    text-align: left;
+}
+
+
+.dados-login{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.dados-login > input {
+    width: 100%;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #3A7056;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0 10px 40px #00000056;
+}
+.dados-login > input::placeholder {
+    color: #f0ffff94;
+}
+
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #ffffff;
+    background-color: #3A7056;
+    cursor: pointer;
+    box-shadow: 0 10px 40px -12px #3a70569d;
+    text-align: center;
+}
+
+.btn.login button:hover {
+    transform: translate(-3px,-3px);
+    transition: .3s;
+    box-shadow: 2px 2px 7px #039FE2;
+    background-color: #03a9f0;
+}
+
+
+.login-alt{
+    max-width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.login-alt img{
+    max-width: 25%;
+    margin: 0 2%;
+    border-radius: 50%;
+}
+.login-alt img:hover{
+    cursor: pointer;
+    transition: .2s;
+    transform: translate(-3px,-3px);
+    transition: .3s;
+    box-shadow: 0 10px 40px #00000056;
+    background-color: #03a9f0;
+}
+
+

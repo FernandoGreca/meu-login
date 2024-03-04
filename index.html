@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <div class="main-login">
+        <h1>Login</h1>
+        <div class="caixa-login">
+            <div class="login-alt">
+                <img src="imagens/logo-facebook.jpg" alt="">
+                <img src="imagens/logo-google.jpg" alt="">
+                <img src="imagens/logo-apple.jpg" alt="">
+            </div>
+            <form action="cadastro.php" autocomplete="on" method="post">
+                <label for="iusu">Usuário</label>
+                <div class="dados-login">
+                    
+                    <input type="text" id="iusu" name="usu" placeholder="Nome de Usuário" autocomplete="username">
+                </div>
+                <label for="isen">Senha</label>
+                <div class="dados-login">  
+                    <input type="password" id="isen" name="sen" placeholder="Senha">
+                </div>
+                <button class="btn-login">LOGIN</button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
