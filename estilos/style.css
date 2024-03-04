@@ -77,11 +77,11 @@ body {
     text-align: center;
 }
 
-.btn.login button:hover {
-    transform: translate(-3px,-3px);
+.btn-login:hover {
+    transition: .2s;
+    transform: translate(-1px,-1px);
     transition: .3s;
-    box-shadow: 2px 2px 7px #039FE2;
-    background-color: #03a9f0;
+    box-shadow: 5px 5px 10px #3a7056a9;
 }
 
 
@@ -103,7 +103,6 @@ body {
     transform: translate(-3px,-3px);
     transition: .3s;
     box-shadow: 0 10px 40px #00000056;
-    background-color: #03a9f0;
 }
 
 
